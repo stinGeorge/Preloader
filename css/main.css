@@ -5,10 +5,23 @@
 body{
     background: #00c9df;
     color: #4C4C4C;
-    font-size: 16px;
     font-family: Arial;
+    font-size: 16px;
 }
 h1{
-    text-align: center;
     padding: 1em;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+#preloader{
+    background: rgba(100,100,100,1);
+    display: block;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+.hide{
+    display: none;
 }
