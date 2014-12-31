@@ -1,5 +1,10 @@
 'use strict';
 var preloader = document.getElementById('preloader');
 window.onload = function(){
-    preloader.style.display = 'none';
+    $(document).ready(function($) {
+        var preloader = $('#preloader');
+        var wraper = $('#wraper');
+        wraper.css('display', 'block');
+        preloader.fadeOut();;
+    });
 }
