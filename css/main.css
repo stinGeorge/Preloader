@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #00c9df;
+    color: #4C4C4C;
+    font-size: 16px;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    padding: 1em;
+}
